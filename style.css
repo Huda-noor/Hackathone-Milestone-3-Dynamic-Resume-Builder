@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color:beige;
+    color:black;
+    background-image:inherit;
+    background-size: cover;
+    padding: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+form{
+    background-color: rgb(236, 244, 244);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0,0.15);
+    max-width: 600px;
+    width: 100%;
+    margin:0 auto;
+    transition: transform 0.3s;
+}
+form:hover{
+    transform: translateY(-10px)
+
+}
+form h2{
+    color: darkblue;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+label{
+    font-weight:  bold;
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(140, 139, 139);
+}
+
+input[type="text"], input[type="email"], select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    color: black;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color:crimson;
+}
+#resumeOutput{
+    margin-top: 30px;
+    background-color: rgb(152, 196, 196);
+    padding: 20px;
+    border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        max-width: 500px;
+        width: 100%;
+}
